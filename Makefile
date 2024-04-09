@@ -1,4 +1,4 @@
-VERSION := v1.27.5
+VERSION := v1.27.6
 TARGET_DIR := $(HOME)/.local/bin
 
 syncthing-linux-amd64-$(VERSION).tar.gz:
@@ -14,3 +14,5 @@ clean:
 
 version:
 	syncthing --version
+
+upgrade: install clean version
