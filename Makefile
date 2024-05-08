@@ -1,4 +1,4 @@
-VERSION := v1.27.6
+VERSION := v1.27.7
 TARGET_DIR := $(HOME)/.local/bin
 
 syncthing-linux-amd64-$(VERSION).tar.gz:
